@@ -61,3 +61,27 @@
 	GIT ADD -> Adicionar um arquivo na lista de Transferencias
 	GIT COMMIT -M -> Realizar um snapshot da transferencia com uma mensagem
 	GIT PUSH -> Enviar Alterações ao Repositório do GitHub
+
+---------------- ****** BRANCHES ****** -------------
+	- Criar nova Branch
+		* GIT BRANCH NOME_DA_BRANCH
+	
+	- Listar BRANCH´s
+		* GIT BRANCH
+
+	- ACESSAR A BRANCH
+		*GIT CHECKOUT NOMA_DA_BRANCH
+
+	- ENVIAR ALTERAÇÕES A BRANCH MASTER
+		*GIT MERGE NOME_DA_BRANCH
+
+	- EXCLUIR UMA BRANCH
+		*GIT BRANCH -D NOME_DA_BRANCH
+
+	- CRIAR BRANCH E JA ACESSA-LA
+		*GIT CHECKOUT -B NOME_DA_BRANCH
+
+	- VISUALIZAR AS ALTERAÇÕES EM MODO GRAFICO
+		*GIT LOG --GRAPH
+
+ 
