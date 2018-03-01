@@ -1,9 +1,8 @@
-# css
+# Git e GitHub - Instalação e Comandos
 Arquivos CSS De Estudos
 
----------------- ****** Git e GitHub - Instalação e Comandos ****** ---------------- 
 
-*** Primeiros Comandos:
+** Primeiros Comandos:
 
 	- Inicializar o git no repositório
 		*git init
