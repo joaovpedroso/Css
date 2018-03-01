@@ -6,16 +6,16 @@
 		*git init
 
 	- Configurar o nome de usuário
-		*git config --global user.name joaovpedroso
+		*git config --global user.name NOME_DE_USUARIO
 
 	- Configurar o email de usuario
-		*git config --global user.email joao_victor.dp@hotmail.com
+		*git config --global user.email EMAIL_DE_USUARIO
 
 	--- Listar as configurações já realizadas
 		*git config --global -l
 
 	- Gerar uma chave de codificação do PC com o GIthub
-		*ssh-keygen -C "joao_victor.dp@hotmail.com"
+		*ssh-keygen -C "EMAIL_DE_USUARIO"
 		*ENTER
 		*INFORME A SENHA
 		*REPITA  A SENHA
