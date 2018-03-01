@@ -1,2 +1,0 @@
-Arquivo de teste do Comando PULL
-no Git Bash
