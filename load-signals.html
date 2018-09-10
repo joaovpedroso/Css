@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            .signals{
+                height: 60px;
+                position: relative;
+            }
+
+            .signal{
+                position: absolute;
+                float: left;
+                border: 1px solid #ccc;
+                width: 10px;
+                transform: rotate(180deg);
+                bottom: 0;
+            }
+
+            #one{
+                left: 0px;
+                height: 10px;    
+                -webkit-animation-name: load1;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-duration: 5s;
+            }
+            #two{
+                left: 20px;
+                height: 20px;
+                -webkit-animation-name: load2;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-duration: 5s;
+            }
+            #three{
+                left: 40px;
+                height: 30px;
+                -webkit-animation-name: load3;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-duration: 5s;
+            }
+            #four{
+                left: 60px;
+                height: 40px;
+                -webkit-animation-name: load4;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-duration: 5s;
+            }
+
+            @keyframes load1{
+                10%{background: green; border-color: green;}
+                100%{background: #fff; border-color: #ccc;}
+            }
+
+
+            @keyframes load2{
+                30%{background: green; border-color: green;}
+                100%{background: #fff; border-color: #ccc;}
+            }
+
+
+            @keyframes load3{
+                50%{background: green; border-color: green;}
+                100%{background: #fff; border-color: #ccc;}
+            }
+
+
+            @keyframes load4{
+                70%{background: green; border-color: green;}
+                100%{background: #fff; border-color: #ccc;}
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="signals">
+            <div id="one" class="signal"></div>
+            <div id="two" class="signal"></div>
+            <div id="three" class="signal"></div>
+            <div id="four" class="signal"></div>
+        </div>
+
+    </body>
+</html>
